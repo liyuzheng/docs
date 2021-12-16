@@ -1,0 +1,898 @@
+<resources>
+    <string name="app_name" translatable="false">小圈</string>
+    <string name="transname" translatable="false">小圈</string>
+    <string name="permission_desc" translatable="false">小圈需要获得以下权限才能为您提供服务</string>
+    <string name="contact_desc" translatable="false">开启屏蔽后手机联系人无法在小圈里查看到你</string>
+    <string name="contact_desc1" translatable="false">开启屏蔽后手机联系人无法在小圈里查看到你</string>
+    <string name="feed_back_desc" translatable="false">请尽量描述完整，我们将认真核实您的举报，共同维护小圈APP的良好环境。</string>
+    <string name="remark_desc" translatable="false">添加时备注“小圈App”会加速通过呦</string>
+    <string name="snap_desc" translatable="false">小圈app</string>
+
+    <!-- translatable回来在去掉要不报错 -->
+
+    <!-- about_act.xml -->
+    <string name="about_us" translatable="false">关于</string>
+
+    <!-- account_security_act.xml -->
+    <string name="account_settings" translatable="false">账号设置</string>
+    <string name="hand_lock" translatable="false">手势锁</string>
+    <string name="logoff_account" translatable="false">注销账号</string>
+    <string name="prompt" translatable="false">提示</string>
+    <string name="asa_logoff_erase_confirm" translatable="false">注销后账户所有信息将会抹除，确认注销？</string>
+    <string name="think_again" translatable="false">再想想</string>
+    <string name="yes" translatable="false">是</string>
+    <string name="asa_14_restore" translatable="false">即日起您有14天撤销操作时间，14天内再次登录小圈APP即认为撤销  确认注销？</string>
+    <string name="close_notification" translatable="false">关闭通知</string>
+    <string name="asa_no_notification_will_be_received_when_it_is_turned_on" translatable="false">打开后将接收不到通知</string>
+
+    <!-- app_info_dialog.xml -->
+    <string name="aid_active_sort_more_active" translatable="false">女生列表按照活跃优先排序\n多多活跃会有更多男生看到你</string>
+    <string name="i_know" translatable="false">知道了</string>
+    <string name="aid_welcome_comeback_open_app_more_exposure" translatable="false">欢迎回来，多打开小圈活跃\n才可以获得更多曝光哦~</string>
+    <string name="ok" translatable="false">好的</string>
+    <string name="aid_if_more_people_feedback_cannot_search_wx" translatable="false">多人反馈你的微信搜索不到、添加未成\n功，管理员隐藏了你的微信，前往\n“我的”→“设置”页面取消隐藏</string>
+    <string name="aid_stealth_mode_charm_vip" translatable="false">魅力VIP才可隐身模式\n还有更多专属特权等你使用～</string>
+    <string name="about_charm_vip" translatable="false">了解魅力VIP</string>
+    <string name="become_charm_vip" translatable="false">成为魅力VIP享特权</string>
+    <string name="aid_vip_stealth_mode" translatable="false">VIP用户才可设置隐身模式\n还有更多专属特权等你使用～</string>
+    <string name="about_vip" translatable="false">了解VIP</string>
+    <string name="become_vip" translatable="false">成为VIP享特权</string>
+    <string name="charm_vip_filter_vip_boys" translatable="false">魅力VIP才可筛选VIP男生\n还有更多专属特权等你使用～</string>
+    <string name="charm_vip_filter_vip_boys_2" translatable="false">魅力VIP才可筛选VIP男生</string>
+    <string name="protected_privacy_private_chat_count" translatable="false">为保护用户隐私\n您今日还剩余%1$d次私聊用户的权限</string>
+    <string name="get_it_continue_to_view" translatable="false">知道了，继续查看</string>
+    <string name="private_chat_count_become_charm_vip" translatable="false">您每天只可私聊%1$d位用户\n成为魅力VIP每天可私聊%2$d位哦～</string>
+    <string name="up_to_three_updates_per_day" translatable="false">每日最多发布三条动态哦~</string>
+    <string name="dynamic_once_become_to_vip" translatable="false">您每天只可发布一条动态\n成为魅力VIP每天可发布三条哦~</string>
+    <string name="up_to_one_news_post_per_day" translatable="false">每日最多发布一条动态哦~</string>
+    <string name="become_top_vip_send_dynamic" translatable="false">成为VIP即可发布动态\n获得更多曝光</string>
+    <string name="charm_vip_locked_vip_boys_more_power" translatable="false">魅力VIP才可查看VIP男生\n还有更多专属特权等你使用~</string>
+    <string name="vip_locked_newer_girl_more_power" translatable="false">VIP才可查看新入女生\n还有更多专属特权等你使用</string>
+    <string name="only_charm_vip_locked_me_more_permission" translatable="false">魅力VIP才可查看谁看过我\n还有更多专属特权等你使用</string>
+    <string name="vip_look_who_looked_me" translatable="false">VIP才可查看谁看过我\n还有更多专属特权等你使用~</string>
+
+    <!-- app_info_dialog.xml -->
+    <string name="select_country_region" translatable="false">选择国家/地区</string>
+
+    <!-- auth_failed_df.xml -->
+    <string name="not_reviewed" translatable="false">未过审</string>
+    <string name="face_auth_failed_because_photo_question" translatable="false">照片因：五官不清晰或未露全脸没过审</string>
+    <string name="try_changing_a_picture" translatable="false">换一张照片试试呢？</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="upload_again" translatable="false">重新上传</string>
+
+    <!-- auth_result_act.xml -->
+    <string name="wait_for_auth" translatable="false">等待审核</string>
+    <string name="failed_reason" translatable="false">失败原因</string>
+    <string name="re_certification" translatable="false">重新认证</string>
+    <string name="please_wait_patiently_during" translatable="false">审核中，请耐心等待\n我们将于24小时内给您出示结果</string>
+    <string name="auth_failed_please_submit_info_again" translatable="false">认证失败，请重新提交审核资料</string>
+
+    <!-- blacklist_act.xml -->
+    <string name="blacklist" translatable="false">黑名单</string>
+
+    <!-- charm_female_df.xml -->
+    <string name="glamour_certification" translatable="false">魅力认证</string>
+    <string name="next_step" translatable="false">下一步</string>
+
+    <!-- charm_improve_contact_act.xml -->
+    <string name="charming_girl_certification" translatable="false">魅力女生认证</string>
+    <string name="we_will_protect_your_privacy" translatable="false">我们会保护你的隐私，联系方式只展示给审核人员和付费后的vip男生。</string>
+    <string name="input_your_we_chat_number" translatable="false">请输入您的微信号</string>
+    <string name="please_upload_the_we_chat_qr_code_matching_with_the_above_we_chat_for_customer_service_verification" translatable="false">请上传与上方微信匹配的微信二维码以便客服核实\n匹配不通过将不会通过哦~</string>
+    <string name="add_contact_account" translatable="false">添加联系方式</string>
+    <string name="picture_upload_failed_please_try_again" translatable="false">图片上传失败，请重试</string>
+    <string name="current_we_chat_number" translatable="false">当前：</string>
+    <string name="modify_we_chat_number" translatable="false">修改微信</string>
+    <string name="picture_selection_failed_please_try_again" translatable="false">图片选择失败，请重试</string>
+    <string name="incomplete_information" translatable="false">信息未填写完整</string>
+    <string name="no_storage_permission_is_given_to_select_pictures" translatable="false">没有赋予存储权限，无法选择图片。</string>
+
+    <!-- charm_improve_info_act.xml -->
+    <string name="complete_details_required" translatable="false">完善详细资料（必填）</string>
+    <string name="fill_in_carefully_and_show_your_charm" translatable="false">认真填写，展现你的魅力~</string>
+    <string name="choose_height" translatable="false">选择身高</string>
+    <string name="choose_weight" translatable="false">选择体重</string>
+    <string name="select_industry" translatable="false">选择行业</string>
+    <string name="enter_your_profile" translatable="false">输入您的个人简介</string>
+    <string name="please_complete_the_information" translatable="false">请填写完整的信息</string>
+
+    <!-- charm_improve_info_detail_act.xml -->
+    <string name="network_exception_click_retry" translatable="false">网络异常，点击重试</string>
+    <string name="more_information_required" translatable="false">更多资料（必填）</string>
+    <string name="fill_in_all_attract_more_men" translatable="false">全部填写，吸引更多男士～</string>
+    <string name="choose_your_body" translatable="false">选择身材</string>
+    <string name="choose_emotional_state" translatable="false">选择感情状态</string>
+    <string name="choose_whether_to_have_children_or_not" translatable="false">选择有无孩子</string>
+    <string name="choose_education_background" translatable="false">选择学历</string>
+    <string name="choose_annual_income" translatable="false">选择年收入</string>
+    <string name="choose_whether_to_smoke_or_not" translatable="false">选择是否抽烟</string>
+    <string name="choose_whether_to_drink_or_not" translatable="false">选择是否饮酒</string>
+
+    <!-- charm_improve_photo_act.xml -->
+    <string name="please_upload_two_five_most_beautiful_photos" translatable="false">请上传2-5张最美的照片</string>
+    <string name="please_upload_my_real_photos_more_easily_favored_by_men" translatable="false">请上传本人真实照片，更容易受到男士青睐。</string>
+    <string name="network_exception_please_try_again" translatable="false">网络异常，请重试</string>
+    <string name="network_exception_please_try_again_dian" translatable="false">网络异常，请重试。</string>
+    <string name="is_delete_this_picture" translatable="false">是否删除该张图片</string>
+    <string name="please_upload_two_five_photo_albums" translatable="false">请上传2-5张相册照片</string>
+    <string name="please_replace_the_failed_photos_in_the_album" translatable="false">请更换相册中未通过的照片</string>
+
+    <!-- charm_public_account_act.xml -->
+    <string name="official_account" translatable="false">关注公众号</string>
+    <string name="the_result_of_the_audit_will_be_informed_by_the_official_account" translatable="false">(审核结果将会在公众号告知)</string>
+    <string name="use_we_chat_to_scan_the_qr_code" translatable="false">使用微信扫描下方二维码，并关注公众号后，返回这里点击验证，即可提交认证申请</string>
+    <string name="verification" translatable="false">验证</string>
+    <string name="save_qr_code" translatable="false">保存二维码</string>
+    <string name="qr_code_loading_failed_please_close_the_pop_up_window_and_try_again" translatable="false">二维码加载失败，请关闭弹窗重试</string>
+
+    <!-- congratulations_vip_df.xml -->
+    <string name="vip" translatable="false">VIP</string>
+    <string name="charm_vip" translatable="false">魅力VIP</string>
+    <string name="congratulations_on_becoming" translatable="false">恭喜成为</string>
+
+    <!-- custom_view_other_user_info_view.xml -->
+    <string name="male" translatable="false">男</string>
+    <string name="female" translatable="false">女</string>
+    <string name="age" translatable="false">岁</string>
+    <string name="he_is_mysterious_left_nothing_behind" translatable="false">他很神秘，什么都没有留下~</string>
+
+    <!-- custom_view_vip_item_view.xml -->
+    <string name="member_to_time" translatable="false">会员至：</string>
+    <string name="renewal_member" translatable="false">续费会员</string>
+    <string name="enjoy_vip_free_privileges" translatable="false">尊享VIP免费特权</string>
+    <string name="stealth_dynamic_and_more" translatable="false">隐身、动态等更多功能</string>
+    <string name="activate_now" translatable="false">立即开通</string>
+
+    <!-- custom_view_we_chat_item_view.xml -->
+    <string name="become_free_to_unlock_wechat" translatable="false">成为免费解锁微信</string>
+    <string name="unlocking" translatable="false">解锁</string>
+    <string name="edit" translatable="false">修改</string>
+    <string name="under_review" translatable="false">审核中</string>
+    <string name="modification_of_we_chat_needs_customer_service_verification" translatable="false">修改微信需客服核实</string>
+    <string name="after_authentication_we_chat_can_be_set_up" translatable="false">认证后即可设置微信</string>
+    <string name="successfully_unlock_we_chat" translatable="false">成功解锁微信</string>
+    <string name="become" translatable="false">成为</string>
+    <string name="unlock_we_chat" translatable="false">解锁微信</string>
+    <string name="see" translatable="false">查看</string>
+
+    <!-- dia_permission.xml -->
+    <string name="mail_list" translatable="false">通讯录</string>
+    <string name="when_the_mobile_phone_opens_the_access_to_read_contacts" translatable="false">手机开启读取联系人权限，您就可以选择屏蔽手机联系人了</string>
+    <string name="open_permission" translatable="false">开启权限</string>
+
+    <!-- dia_privacy_settings.xml -->
+    <string name="privacy_settings" translatable="false">隐私设置</string>
+    <string name="block_mobile_contacts" translatable="false">屏蔽手机联系人</string>
+    <string name="start_browsing" translatable="false">开始浏览</string>
+    <string name="failed_to_grant_permission_unable_to_use_function" translatable="false">赋予权限失败，无法使用功能。</string>
+
+    <!-- dynamic_detail_act.xml -->
+    <string name="detail" translatable="false">详情</string>
+
+    <!-- dynamic_like_list_act.xml -->
+    <string name="you_don_not_had_send_dynamic" translatable="false">还没有发布过动态哦～</string>
+
+    <!-- dynamic_square_child_frg.xml -->
+    <string name="cannot_get_nearby_dynamics_without_opening_location_permission" translatable="false">没有开启位置权限，无法获取附近动态。</string>
+
+    <!-- dynamic_square_frg.xml -->
+    <string name="click_to_try_again" translatable="false">点击重试</string>
+
+    <!-- dynamic_square_frg.xml -->
+    <string name="only_girls" translatable="false">只看女生</string>
+    <string name="only_boys" translatable="false">只看男生</string>
+    <string name="all_dynamics" translatable="false">全部动态</string>
+    <string name="boy" translatable="false">男生</string>
+    <string name="girl" translatable="false">女生</string>
+    <string name="all" translatable="false">全部</string>
+
+    <!-- edit_user_info_act.xml -->
+    <string name="edit_profile" translatable="false">修改资料</string>
+    <string name="save" translatable="false">保存</string>
+    <string name="completion" translatable="false">完成度</string>
+    <string name="nickname" translatable="false">昵称</string>
+    <string name="please_fill_in" translatable="false">请填写</string>
+    <string name="personal_profile" translatable="false">个人简介</string>
+    <string name="he_is_very_mysterious_did_not_write_anything" translatable="false">他很神秘，什么都没有写～</string>
+    <string name="more_about" translatable="false">更多介绍</string>
+    <string name="hobby_and_interest" translatable="false">兴趣爱好</string>
+    <string name="album" translatable="false">相册</string>
+    <string name="birthday" translatable="false">生日</string>
+    <string name="city" translatable="false">城市</string>
+    <string name="height" translatable="false">身高</string>
+    <string name="weight" translatable="false">体重</string>
+    <string name="engaged_in_occupation" translatable="false">从事职业</string>
+    <string name="please_select" translatable="false">请选择</string>
+    <string name="please_fill_in_the_nickname" translatable="false">请填写昵称</string>
+    <string name="everything_is_not_changed" translatable="false">未修改内容</string>
+    <string name="photo_is_not_auth" translatable="false">检测到您的头像不符合真人认证，确认修改后将失去认证标识</string>
+    <string name="confirm_modification" translatable="false">确认修改</string>
+    <string name="figure" translatable="false">身材</string>
+    <string name="emotional_state" translatable="false">感情状态</string>
+    <string name="children" translatable="false">孩子</string>
+    <string name="education" translatable="false">学历</string>
+    <string name="annual_income" translatable="false">年收入</string>
+    <string name="smoke" translatable="false">抽烟</string>
+    <string name="drink" translatable="false">饮酒</string>
+    <string name="add_add_interest" translatable="false">+添加兴趣</string>
+
+    <!-- evaluation_df.xml -->
+    <string name="evaluate" translatable="false">评价</string>
+    <string name="anonymous_evaluation" translatable="false">匿名评价</string>
+    <string name="please_report_serious_problems" translatable="false">严重问题请举报</string>
+    <string name="my_comments" translatable="false">我的评价</string>
+    <string name="comprehensive_score" translatable="false">综合评分</string>
+    <string name="you_have_not_received_a_review_yet" translatable="false">你还没有收到评价</string>
+    <string name="evaluation_not_selected" translatable="false">未点选评价</string>
+    <string name="evaluation_submitted" translatable="false">评价已提交</string>
+
+    <!-- feedback_act.xml -->
+    <string name="submit_feedback" translatable="false">提交反馈</string>
+    <string name="ah_failed_to_upload_the_picture_please_try_again" translatable="false">啊哦 图片上传失败，请重试</string>
+    <string name="feedback" translatable="false">意见反馈</string>
+    <string name="problem_description" translatable="false">问题描述</string>
+    <string name="please_describe_your_questions_and_comments" translatable="false">请描述您的问题和意见</string>
+    <string name="picture_optional" translatable="false">图片（选填）</string>
+    <string name="anonymous_report" translatable="false">匿名举报</string>
+    <string name="reasons_for_reporting" translatable="false">举报理由</string>
+    <string name="picture" translatable="false">图片</string>
+    <string name="report_trends" translatable="false">举报动态</string>
+    <string name="please_describe_your_reasons_for_reporting" translatable="false">请描述您的举报理由</string>
+    <string name="something_the_matter_ask_immediately" translatable="false">有问题？立即询问</string>
+    <string name="online_service" translatable="false">在线客服</string>
+    <string name="please_input_the_content_of_complaint" translatable="false">请输入要投诉的内容</string>
+    <string name="please_upload_at_least_one_picture" translatable="false">请上传至少一张图片</string>
+    <string name="the_problem_has_been_fed_back" translatable="false">问题已反馈</string>
+
+    <!-- female_auth_act.xml -->
+    <string name="basic_information" translatable="false">基本资料</string>
+    <string name="upload_clear_facial_features_let_more_users_find_you" translatable="false">上传清晰的五官头像，让更多用户发现你</string>
+    <string name="the_avatar_has_not_passed_the_human_authentication_please_upload_it_again" translatable="false">头像未通过真人认证，请重新上传</string>
+    <string name="make_sure_i_have_a_picture_before_i_pass_the_audit" translatable="false">确保本人头像，才能通过审核</string>
+    <string name="location_permissions" translatable="false">位置权限</string>
+    <string name="please_close_the_page_and_try_again" translatable="false">资料填写有误，请关闭页面重试</string>
+    <string name="update_avatar_successfully" translatable="false">更新头像成功</string>
+    <string name="you_are_currently_in" translatable="false">您当前在：</string>
+    <string name="getting" translatable="false">获取中...</string>
+    <string name="please_open_location_permission" translatable="false">请开启位置权限</string>
+    <string name="please_click_application_permission_and_open_it" translatable="false">请点击 【应用权限】 并将其开启"</string>
+    <string name="unable_to_upload_image_without_storage_permission" translatable="false">没有赋予存储权限，无法上传图片。</string>
+
+    <!-- female_home_frg.xml -->
+    <string name="the_list_of_female_students" translatable="false">女生列表按照活跃排序，越活越约靠前~</string>
+
+    <!-- female_home_frg_adapter_linear_item.xml -->
+    <string name="online" translatable="false">在线</string>
+    <string name="the_distance_is_unknown" translatable="false">距离未知</string>
+
+    <!-- forget_password_act.xml -->
+    <string name="forget_the_password" translatable="false">忘记密码</string>
+    <string name="please_enter_the_verification_code" translatable="false">请输入验证码</string>
+    <string name="please_enter_a_new_password" translatable="false">请输入新密码</string>
+    <string name="please_confirm_the_new_password_again" translatable="false">请再次确认新密码</string>
+    <string name="confirm_and_login" translatable="false">确认并登录</string>
+    <string name="send_verification_code" translatable="false">发送验证码</string>
+    <string name="resend_captcha" translatable="false">重新发送验证码</string>
+    <string name="the_verification_code_has_been_sent_to" translatable="false">验证码已通过短信发送至</string>
+    <string name="the_password_needs_six_twelve_digits_or_english" translatable="false">。密码需要6-12个数字或英文</string>
+    <string name="resend_in_seconds" translatable="false">秒后可重新发送</string>
+    <string name="reset_password_successfully" translatable="false">重置密码成功</string>
+    <string name="verification_code_error" translatable="false">验证码错误</string>
+    <string name="please_input_a_password" translatable="false">请输入密码</string>
+    <string name="please_set_a_password_greater_than_six_characters" translatable="false">请设置大于6位字符的密码</string>
+    <string name="the_two_passwords_are_inconsistent" translatable="false">两次输入密码不一致</string>
+
+    <!-- gallery_act.xml -->
+    <string name="delete" translatable="false">删除</string>
+    <string name="burn_after_reading" translatable="false">阅后即焚(查看</string>
+    <string name="burn_in_seconds" translatable="false">秒后焚毁)</string>
+    <string name="red_envelope_video" translatable="false">红包视频</string>
+    <string name="diamond_unlock" translatable="false">钻石解锁</string>
+    <string name="confirm_deletion" translatable="false">确认删除</string>
+    <string name="video" translatable="false">视频</string>
+    <string name="photo_deleted" translatable="false">照片已删除</string>
+
+    <!-- gallery_frg_1.xml -->
+    <string name="burn_photos_immediately_after_reading" translatable="false">阅后即焚照片</string>
+    <string name="press_and_hold_the_screen_to_view" translatable="false">按住屏幕查看</string>
+    <string name="the_photo_was_burned" translatable="false">照片已焚毁</string>
+    <string name="failed_to_load_photos_please_try_again" translatable="false">加载照片失败，请重试</string>
+
+    <!-- gender_selector_act.xml -->
+    <string name="please_choose_your_gender" translatable="false">请选择你的性别</string>
+    <string name="the_gender_cannot_be_changed_after_confirmation" translatable="false">确认性别后不可更改</string>
+    <string name="confirm_selection" translatable="false">确认选择</string>
+    <string name="i_want_to_change_it" translatable="false">我要更改</string>
+    <string name="wrong_gender_selected_please_try_again" translatable="false">选择的性别有误，请重试</string>
+    <string name="operation_successful" translatable="false">操作成功</string>
+    <string name="please_select_gender" translatable="false">请选择性别</string>
+
+    <!-- girl_after_auth_act.xml -->
+    <string name="secret_script_of_small_circle" translatable="false">小圈秘籍</string>
+    <string name="open_more_small_circles_and_stay_active_to_increase_exposure_to_more_men" translatable="false">多打开小圈，保持活跃可以增加曝光\n让更多男士看到你～</string>
+    <string name="how_to_increase_exposure" translatable="false">如何增加曝光？</string>
+    <string name="when_you_need_to_hide_we_chat_from_boys_or_hide_it_from_boys_you_can_go_to_my_settings_page_to_operate" translatable="false">需要对男生隐藏微信或对男生隐身时，\n可前往“我的”→“设置”页面操作~</string>
+    <string name="how_to_hide_we_chat_or_stealth" translatable="false">如何隐藏微信或隐身？</string>
+    <string name="if_the_small_circle_is_not_opened_for_a_long_time_it_will_reduce_the_sort_and_exposure" translatable="false">若长时间未打开小圈活跃，将会\n降低排序，减少曝光。</string>
+    <string name="this_will_reduce_the_exposure" translatable="false">这样会减少曝光！</string>
+    <string name="if_you_are_repeatedly_reported_by_users" translatable="false">被用户多次举报微信搜索不到、\n添加不通过、消息不回复，将会\n取消魅力女生身份！</string>
+    <string name="this_will_be_punished" translatable="false">这样会受到惩罚！</string>
+    <string name="read_the_above_tips_carefully_and_click_know_to_finish" translatable="false">认真阅读以上提示内容并点击“知道了”才能点击完成</string>
+    <string name="complete" translatable="false">完成</string>
+
+    <!-- guide_to_sign_up_df.xml -->
+    <string name="the_mobile_phone_is_not_registered" translatable="false">该手机号未注册小圈APP快去注册吧～</string>
+    <string name="register_now" translatable="false">立即注册</string>
+
+    <!-- hobby_act.xml -->
+    <string name="choose_your_hobbies" translatable="false">选择你的兴趣爱好</string>
+    <string name="not_selected" translatable="false">未选择</string>
+    <string name="choose_up_to_six_interests" translatable="false">最多选择六个兴趣爱好</string>
+
+    <!-- home_frg.xml -->
+    <string name="you_are_using_stealth_mode" translatable="false">您正在使用隐身模式，</string>
+    <string name="click_here" translatable="false">点击这里</string>
+    <string name="close_now" translatable="false">立即关闭</string>
+
+    <!-- improve_info_df.xml -->
+    <string name="more_boys_will_like_you" translatable="false">个人资料完成80%以上会有更多男生喜欢你哦～</string>
+    <string name="later" translatable="false">稍后</string>
+    <string name="improve_information" translatable="false">完善资料</string>
+
+    <!-- improve_user_info_act.xml -->
+    <string name="improve_your_information" translatable="false">完善你的资料</string>
+    <string name="your_nickname" translatable="false">你的昵称</string>
+    <string name="your_birthday" translatable="false">你的生日</string>
+    <string name="invitation_code_optional" translatable="false">邀请码（选填）</string>
+
+    <!-- include_about_each_other.xml -->
+    <string name="height_and_weight" translatable="false">身高/体重</string>
+
+    <!-- include_network_error.xml -->
+    <string name="failed_to_load_click_to_try_again" translatable="false">加载失败，点击重试</string>
+
+    <!-- include_unlock_we_chat.xml -->
+    <string name="become_free_to_unlock_we_chat" translatable="false">成为免费解锁微信</string>
+
+    <!-- invite_act.xml -->
+    <string name="invite_benefits" translatable="false">邀请福利</string>
+    <string name="receive" translatable="false">领取</string>
+    <string name="exclusive_invitation_code" translatable="false">专属邀请码</string>
+    <string name="click_copy" translatable="false">点击复制</string>
+    <string name="reward_rules" translatable="false">奖励规则</string>
+    <string name="invite_users" translatable="false">邀请用户</string>
+    <string name="become_a_member" translatable="false">是否成为会员</string>
+    <string name="invitation_time" translatable="false">邀请时间</string>
+
+    <!-- job_act.xml -->
+    <string name="choosing_a_career" translatable="false">选择职业</string>
+    <string name="you_can_only_choose_one_occupation" translatable="false">只能选择一种职业哦～</string>
+
+    <!-- like_act.xml -->
+    <string name="i_like" translatable="false">我喜欢</string>
+    <string name="like_me" translatable="false">喜欢我</string>
+
+    <!-- lock_act.xml -->
+    <string name="cancel_hand_lock" translatable="false">取消手势锁</string>
+    <string name="reset_hand_lock" translatable="false">重置手势锁</string>
+    <string name="forget_hand_lock" translatable="false">忘记手势</string>
+
+    <!-- login_act.xml -->
+    <string name="please_input_mobile_phone_number" translatable="false">请输入手机号</string>
+    <string name="login_with_password" translatable="false">使用密码登录</string>
+    <string name="login" translatable="false">登录</string>
+    <string name="sms_verification_code_login_or_registration" translatable="false">短信验证码登录/注册</string>
+    <string name="the_verification_code_has_been_sent_by_sms" translatable="false">验证码已通过短信发送</string>
+
+    <!-- login_guide_act.xml -->
+    <string name="start_exploring" translatable="false">开始探索</string>
+    <string name="professional_dating_software_for_single" translatable="false">为单身男女所打造的\n专业交友软件</string>
+
+    <!-- male_auth_act.xml -->
+    <string name="elite_men_is_certification" translatable="false">精英男士认证</string>
+    <string name="certification_now" translatable="false">立即认证</string>
+    <string name="upload_my_avatar_girls_are_more_assured_to_meet_you" translatable="false">上传本人头像，女生更放心与你见面~</string>
+    <string name="please_make_sure_your_head_is_clear" translatable="false">请确保头像清晰，五官无遮挡</string>
+    <string name="abandon_the_real_person_certification" translatable="false">放弃真人认证</string>
+    <string name="in_order_to_protect_your_privacy" translatable="false">为保护您的隐私，您的信息只有认证过的\n女生可以看到，请放心认证。</string>
+
+    <!-- male_home_frg_adapter_item.xml -->
+    <string name="private_letter" translatable="false">私信</string>
+
+    <!-- male_home_frg_adapter_item_new.xml -->
+    <string name="mysterious_planet" translatable="false">神秘星球</string>
+
+    <!-- male_recommend_df.xml -->
+    <string name="free_8_times_to_say_hello" translatable="false">免费赠送8次打招呼，点击下方按钮，一键发送"</string>
+    <string name="one_click_greeting" translatable="false">一键打招呼</string>
+
+    <!-- message_frg.xml -->
+    <string name="message" translatable="false">消息</string>
+
+    <!-- mine_frg.xml -->
+    <string name="my" translatable="false">我的</string>
+    <string name="wallet" translatable="false">钱包</string>
+    <string name="my_albums_and_videos" translatable="false">我的相册与视频</string>
+    <string name="upload_pictures_or_video" translatable="false">上传相册/视频</string>
+    <string name="there_are_no_photos_for_the_time_being" translatable="false">暂无照片\n快传最美的照片、视频，吸引男士的青睐吧！</string>
+    <string name="invite_gifts" translatable="false">邀请福利</string>
+    <string name="invite_users_to_get_members" translatable="false">邀请用户领会员</string>
+    <string name="view_benefits" translatable="false">查看福利</string>
+
+    <!-- moment_my_lst_act.xml -->
+    <string name="my_dynamic" translatable="false">我的动态</string>
+    <string name="release_news" translatable="false">发布动态</string>
+
+    <!-- moment_topic_act.xml -->
+    <string name="participate_in_the_topic" translatable="false">参与话题</string>
+
+    <!-- nim_message_item_snap_chat.xml -->
+    <string name="burn_after_reading_click_and_look" translatable="false">阅后即焚\n\n点击查看</string>
+
+    <!-- notification_apply_for_dialog.xml -->
+    <string name="allow_access_to_notification_rights" translatable="false">允许访问“通知权限”？</string>
+    <string name="you_don_not_have_permission_to_open_push_yet" translatable="false">你还没有开推送权限，开启后\n即可收到精彩</string>
+    <string name="talk_later" translatable="false">以后再说</string>
+    <string name="open" translatable="false">开启</string>
+
+    <!-- p2p_message_act.xml -->
+    <string name="this_software_is_strictly_prohibited" translatable="false">本软件严禁利用本软件进行淫秽色情、诈骗、赌博、传销等违法违规以及违反注册协议、隐私政策的行为，否则将依法处理。如有利用本软件以约谈、送礼等理由进行色诱、私下不当交易等行为，请谨慎判断，以防人身或财产损失甚至违法违规。本软件声明，本软件仅为用户提供内容储存空间，不对用户发布的任何信息或者利用本软件账号从事的任何行为承担法律责任。用户的一切行为应当自行承担法律后果。本软件无法且不会对因用户行为而导致的任何损失或损害承担责任。</string>
+    <string name="password_login" translatable="false">密码登录</string>
+
+    <!-- payment_method_df.xml -->
+    <string name="choose_the_payment_method" translatable="false">请选择支付方式</string>
+
+    <!-- photo_prompt_df.xml -->
+    <string name="your_album_has_not_been_uploaded_yet" translatable="false">你的相册还未上传</string>
+    <string name="rich_photo_album_can_get_more_men_is_favor" translatable="false">丰富相册可获得更多男士的青睐~</string>
+    <string name="not_now" translatable="false">暂不</string>
+    <string name="set_up_now" translatable="false">立即设置</string>
+
+    <!-- pop_window_dynamic_more.xml -->
+    <string name="report" translatable="false">举报</string>
+
+    <!-- privacy_act.xml -->
+    <string name="privacy_and_blacklist" translatable="false">隐私和黑名单</string>
+
+    <!-- privacy_agreement_df.xml -->
+    <string name="user_privacy_protocol" translatable="false">用户隐私协议</string>
+    <string name="agree_and_continue" translatable="false">同意并继续</string>
+
+    <!-- privacy_new_df.xml -->
+    <string name="user_agreement_and_privacy_policy" translatable="false">用户协议和隐私政策</string>
+    <string name="confirm" translatable="false">确定</string>
+
+    <!-- public_account_bind_df.xml -->
+    <string name="you_have_bound_the_small_circle_official_account" translatable="false">你已绑定过小圈公众号，若不想继续同步消息，可点击下方按钮解除绑定～</string>
+    <string name="unbinding" translatable="false">解绑</string>
+    <string name="not_for_the_time_being" translatable="false">暂不处理</string>
+    <string name="publish" translatable="false">发布</string>
+    <string name="please_don_not_publish_pornographic" translatable="false">记录此刻心情\n请勿发布色情，涉政等违反国家法律规定，以及侵害他人合法利益的内容</string>
+
+    <!-- recharge_coin_df.xml -->
+    <string name="successful_purchase_of_diamonds" translatable="false">钻石购买成功</string>
+
+    <!-- recharge_df.xml -->
+    <string name="recharge" translatable="false">充值</string>
+    <string name="balance" translatable="false">余额：</string>
+
+    <!-- report_act.xml -->
+    <string name="what_kind_of_relationship_are_you_looking_for" translatable="false">你要寻求什么关系？</string>
+    <string name="fill_in_supplementary_reasons_optional" translatable="false">填写补充理由(选填)</string>
+    <string name="picture_required" translatable="false">图片(必填)</string>
+    <string name="please_provide_effective_screenshot_for_customer_service_audit" translatable="false">请提供有效截图，方便客服审核</string>
+
+    <!-- report_dia_frg.xml -->
+    <string name="please_enter_the_content_of_the_report" translatable="false">请输入举报内容</string>
+    <string name="successful_report" translatable="false">举报成功</string>
+
+    <!-- see_wechat_df.xml -->
+    <string name="only_twenty_four_hours_to_unlock_we_chat" translatable="false">解锁微信只展示24小时</string>
+
+    <!-- set_password_act.xml -->
+    <string name="set_your_password" translatable="false">设置你的密码</string>
+    <string name="the_password_is_six_twelve_english_or_numbers" translatable="false">密码为6-12个英文或数字</string>
+    <string name="please_set_your_password" translatable="false">请设置你的密码</string>
+
+    <!-- settings_act.xml -->
+    <string name="setting" translatable="false">设置</string>
+    <string name="logout" translatable="false">退出登录</string>
+    <string name="user_agreement_and_privacy_policy2" translatable="false">《用户协议》和《隐私政策》</string>
+
+    <!-- simple_edit_text_act.xml -->
+    <string name="edit2" translatable="false">编辑</string>
+    <string name="please_input_the_content" translatable="false">请输入内容</string>
+
+    <!-- thumbs_act.xml -->
+    <string name="he_praised_me" translatable="false">ta赞了我</string>
+    <string name="i_like_it" translatable="false">我赞了ta</string>
+
+    <!-- unlock_user_df.xml -->
+    <string name="vip_can_unlock_310_times_per_month" translatable="false">VIP每月最高解锁310次</string>
+    <string name="this_charming_girl_has_set_up_privacy_protection" translatable="false">这位魅力女生设置了隐私保护请先私聊沟通后再添加联系方式</string>
+
+    <!-- unlock_user_unlock_item.xml -->
+    <string name="go_to_see" translatable="false">去看看</string>
+
+    <!-- user_info_details_frg.xml -->
+    <string name="view_we_chat" translatable="false">查看微信</string>
+    <string name="understanding_ta" translatable="false">了解Ta</string>
+    <string name="evaluate_ta" translatable="false">评价Ta</string>
+
+    <!-- user_info_frg.xml -->
+    <string name="immediate_evaluation" translatable="false">立即评价</string>
+
+    <!-- user_info_with_moment_frg.xml -->
+    <string name="profile" translatable="false">资料</string>
+    <string name="dynamic" translatable="false">动态</string>
+
+    <!-- video_preview_act.xml -->
+    <string name="upload_video" translatable="false">上传视频</string>
+    <string name="use" translatable="false">使用</string>
+    <string name="red_envelope_video_5_yuan_to_unlock" translatable="false">红包视频(5元解锁)</string>
+
+    <!-- view_item_black_list.xml -->
+    <string name="remove" translatable="false">移除</string>
+
+    <!-- view_item_home_full.xml -->
+    <string name="official_real_person_authentication" translatable="false">官方真人认证</string>
+
+    <!-- view_item_simple_line_style_1.xml -->
+    <string name="like" translatable="false">喜欢</string>
+
+    <!-- view_item_user_gallery.xml -->
+    <string name="self" translatable="false">本人</string>
+
+    <!-- view_item_vip_recharge.xml -->
+    <string name="money_flag" translatable="false">¥</string>
+    <string name="discount_for_renewal_20" translatable="false">续费限时八折</string>
+
+    <!-- view_item_vip_recharge_df.xml -->
+    <string name="buy_at_most" translatable="false">最多购买</string>
+
+    <!-- vip_act.xml -->
+    <string name="xiao_quan_vip" translatable="false">小圈VIP</string>
+    <string name="vip_for_charming_girls" translatable="false">魅力女生专属VIP</string>
+    <string name="record" translatable="false">记录</string>
+
+    <!-- vip_recharge_df.xml -->
+    <string name="get_vip_privileges" translatable="false">获取VIP特权</string>
+    <string name="get_membership" translatable="false">获取会员</string>
+
+    <!-- vip_recharge_full_screen_30_percent.xml -->
+    <string name="the_offer_will_be_available_at" translatable="false">优惠将在</string>
+    <string name="due_after" translatable="false">后到期</string>
+
+    <!-- wallet_act.xml -->
+    <string name="my_income_yuan" translatable="false">我的收益 (元)</string>
+    <string name="withdrawal" translatable="false">提现</string>
+    <string name="balance_diamonds" translatable="false">余额 (钻)</string>
+
+    <!-- watch_me_act.xml -->
+    <string name="people_who_have_seen_me" translatable="false">看过我的人</string>
+
+    <!-- wx_public_account_df.xml -->
+    <string name="using_we_chat_scanning_the_qr_code" translatable="false">使用微信扫描二维码，并关注公众号后，不会错过小圈消息哦～</string>
+
+
+    <string name="the_girl_has_passed_the_official_real_person_certification" translatable="false">该女生已通过官方真人认证，照片真实可放心交友。</string>
+    <string name="the_app_is_out_of_date" translatable="false">App过期。</string>
+    <string name="system_prompt" translatable="false">系统提示</string>
+    <string name="sorry_your_credit_is_running_low" translatable="false">余额不足</string>
+    <string name="oh_no_data" translatable="false">阿哦，没有数据～</string>
+    <string name="at_present_there_is_no_city_for_the_time_being" translatable="false">当前城市暂时没有</string>
+    <string name="you_can_not_praise_yourself" translatable="false">不能给自己点赞～</string>
+    <string name="please_upload_your_avatar" translatable="false">请上传头像</string>
+    <string name="please_choose_a_birthday" translatable="false">请选择生日</string>
+    <string name="there_is_no_invitation_record" translatable="false">还没有邀请记录\n快去邀请好友得VIP吧</string>
+    <string name="go_and_invite_members_for_cash" translatable="false">还没有邀请记录\n快去邀请会员得现金吧</string>
+    <string name="save_invitation_qr_code" translatable="false">保存邀请二维码</string>
+    <string name="copied" translatable="false">已复制</string>
+    <string name="there_is_no_claim" translatable="false">没有可领取的</string>
+    <string name="successfully_received" translatable="false">领取成功</string>
+    <string name="invitation_code_generating" translatable="false">邀请码生成中，请稍后尝试。</string>
+    <string name="please_open_the_storage_permission" translatable="false">请开启存储权限后再保存图片</string>
+    <!-- => 后是手机存储卡的路径 -->
+    <string name="saved_to_phone" translatable="false">已保存至手机 =></string>
+    <string name="no" translatable="false">否</string>
+    <string name="wrong_password" translatable="false">密码错误</string>
+    <string name="please_set_a_six_twelve_character_password" translatable="false">请设置6-12位字符的密码</string>
+    <string name="enter_your_verification_code" translatable="false">输入你的验证码</string>
+    <string name="please_enter_the_correct_mobile_phone_number" translatable="false">请输入正确的手机号码</string>
+    <string name="incorrect_input_of_verification_code" translatable="false">验证码输入有误</string>
+    <string name="real_person_authentication_passed" translatable="false">真人认证通过</string>
+    <string name="failed_to_authenticate_click_replace" translatable="false">认证失败点击更换</string>
+    <string name="please_allow_permission_to_use_the_function_normally" translatable="false">请允许权限以正常使用功能</string>
+    <string name="authentication_failed_please_try_again" translatable="false">认证失败，请重试</string>
+    <string name="the_current_app_version_is_too_low" translatable="false">当前App版本过低。</string>
+    <string name="update_now" translatable="false">立即更新</string>
+    <string name="free_of_charge" translatable="false">免费赠送</string>
+    <string name="to_say_hello_click_the_button_below_and_send_it_with_one_click" translatable="false">次打招呼，点击下方按钮，一键发送</string>
+    <string name="in_order_to_avoid_disturbing_too_much" translatable="false">为避免打扰过多，对方回复后才可以继续沟通~</string>
+    <string name="alipay_payment" translatable="false">支付宝支付</string>
+    <string name="we_chat_payment" translatable="false">微信支付</string>
+    <string name="you_need_to_pay" translatable="false">您需要支付</string>
+    <string name="please_fully_read_and_understand" translatable="false">请充分阅读并理解《用户协议》和《隐私政策》</string>
+    <string name="thank_you_for_using" translatable="false">感谢您使用</string>
+    <string name="more_relevant_laws_and_regulations_require" translatable="false">更具相关法律规定要求我司制定了</string>
+    <string name="individual" translatable="false">个</string>
+    <string name="cancellation_of_payment" translatable="false">取消支付</string>
+    <string name="payment_failed" translatable="false">支付失败</string>
+    <string name="failed_to_get_recharge_information" translatable="false">获取充值信息失败，请关闭重试</string>
+    <string name="order_information_may_be_delayed_refresh" translatable="false">订单信息可能有延迟，是否刷新？</string>
+    <string name="payment_successful" translatable="false">支付成功</string>
+    <string name="order_payment_failed" translatable="false">订单支付失败！</string>
+    <string name="you_have_successfully_purchased" translatable="false">您已成功购买</string>
+    <string name="diamonds" translatable="false">钻石</string>
+    <string name="charming_girl_exclusive_customer_service" translatable="false">魅力女生专属客服请勿泄露</string>
+    <string name="please_note_when_adding" translatable="false">添加时请备注</string>
+    <string name="charming_girl" translatable="false">魅力女生”呦</string>
+    <string name="copy_we_chat_successfully" translatable="false">复制微信成功</string>
+    <string name="no_micro_signal_can_be_found" translatable="false">搜索不到微信号？</string>
+    <string name="report_immediately" translatable="false">立即举报</string>
+    <string name="cover" translatable="false">被</string>
+    <string name="every_time" translatable="false">每次</string>
+    <string name="after_unlocking_you_can_report_once" translatable="false">解锁后才可举报一次哦~</string>
+    <string name="in_order_to_avoid_the" translatable="false">为避免女生离您过远，体验不佳请打开位置权限</string>
+    <string name="open_now" translatable="false">立即打开</string>
+    <string name="vip_can_be_set_to_stealth_mode" translatable="false">魅力VIP才可设置隐身模式</string>
+    <string name="to_protect_the_privacy" translatable="false">为保护魅力女生隐私\n您今日还剩余3次私聊用户的权限</string>
+    <string name="i_see_keep_checking" translatable="false">知道了，继续查看</string>
+    <string name="you_can_only_chat_with_twenty" translatable="false">您每天只可以私聊20个用户\n成为魅力VIP每天不限人数哦~</string>
+    <string name="you_can_only_post_one" translatable="false">您每天只可发布一条动态\n成为魅力VIP每天可发布三条哦~</string>
+    <string name="become_a_vip_to_release_news" translatable="false">成为VIP即可发布动态\n获得更多曝光~</string>
+    <string name="please_find_it_in_the" translatable="false">请在打开的页面中找到</string>
+    <string name="permission" translatable="false">权限</string>
+    <string name="location_permission" translatable="false">位置权限</string>
+    <string name="turn_it_on" translatable="false">将其打开</string>
+    <string name="consume" translatable="false">消耗</string>
+    <string name="chat_now" translatable="false">立即聊天</string>
+    <string name="get_her_at_once" translatable="false">立刻撩她</string>
+    <string name="diamond_unlock_private_chat" translatable="false">钻石解锁私聊</string>
+    <string name="if_the_girl_does_not_reply_within" translatable="false">24小时内未得到女生回复，钻石将退回你的钱包</string>
+    <string name="free_unlocking_with_vip_privileges" translatable="false">使用VIP特权免费解锁</string>
+    <string name="private_chat_unlocked_successfully" translatable="false">私聊解锁成功</string>
+    <string name="private_chat_unlocking_is" translatable="false">您和女生距离超过100km，为保证体验请和女生商议过后再添加联系方式。</string>
+    <string name="check_now" translatable="false">立刻查看</string>
+    <string name="we_chat_unlocked_successfully" translatable="false">微信解锁成功</string>
+    <string name="you_have_successfully_unlocked" translatable="false">您已经成功解锁</string>
+    <string name="it_wechat" translatable="false">的微信</string>
+    <string name="show_sincerity_to_the_other_party" translatable="false">向对方表达诚意\n解锁私聊需要消耗</string>
+    <string name="network_exception_please_click_to_try_again" translatable="false">网络异常，请点击重试</string>
+    <string name="to_protect_girls_from_harassment" translatable="false">为保护女生不被骚扰，需消耗钻石解锁</string>
+    <string name="diamond_unlock_we_chat" translatable="false">钻石解锁微信</string>
+    <string name="view_now" translatable="false">立即查看</string>
+    <string name="we_chat_or_private_chat_unlocked_successfully" translatable="false">微信/私聊解锁成功</string>
+    <string name="free_unlock_privilege" translatable="false">免费解锁特权</string>
+    <string name="the_number_of_unlocks_has" translatable="false">今日解锁次数已耗尽。</string>
+    <string name="vip_privilege_used_today" translatable="false">今日VIP特权已使用</string>
+    <string name="second" translatable="false">次</string>
+    <string name="please_try_again" translatable="false">请重试</string>
+    <string name="invited" translatable="false">已邀请</string>
+    <string name="people_reduce" translatable="false">人，立减</string>
+    <string name="the_discount_time_is_up" translatable="false">折扣优惠时间已到，活动结束！</string>
+    <string name="privilege" translatable="false">特权</string>
+    <string name="hour" translatable="false">小时</string>
+    <string name="minute" translatable="false">分</string>
+    <string name="second2" translatable="false">秒</string>
+    <string name="want_to_add_her_personal_we_chat" translatable="false">想添加她的私人微信？获取VIP立即查看她的微信</string>
+    <string name="unlimited_chat" translatable="false">无限畅聊</string>
+    <string name="get_vip_to_chat_with_her" translatable="false">获取VIP可和她无限畅聊！</string>
+    <string name="view_information" translatable="false">查看资料</string>
+    <string name="want_to_see_more_about_girls" translatable="false">想要查看更多女生资料？获取VIP特权即可无限查看</string>
+    <string name="new_girl" translatable="false">新入女生</string>
+    <string name="today_many_new_high" translatable="false">今日新入好多优质小姐姐，获取VIP特权立即查看～</string>
+    <string name="who_has_seen_me" translatable="false">谁看过我</string>
+    <string name="which_girls_are_peeking_at_me" translatable="false">哪些女生在偷偷看我？获取VIP特权马上知道！</string>
+    <string name="daily_news" translatable="false">每日动态</string>
+    <string name="want_to_attract_girls_attention" translatable="false">想要吸引女生注意？每日发布动态，扩大交友圈子～</string>
+    <string name="burn_after_reading_2" translatable="false">阅后即焚</string>
+    <string name="double_the_viewing_time" translatable="false">阅后即焚图片查看时长翻倍！</string>
+    <string name="stealth_mode" translatable="false">隐身模式</string>
+    <string name="when_inconvenient" translatable="false">不方便的时候，打开隐身模式，防止打扰</string>
+    <string name="noble_status" translatable="false">尊贵身份</string>
+    <string name="exclusive_vip_logo_display" translatable="false">专属VIP标识展示，彰显尊贵身份～</string>
+    <string name="view_vip" translatable="false">查看VIP</string>
+    <string name="accurate_screening_of_vip" translatable="false">精准筛选VIP用户，结识大方爽快的男士～</string>
+    <string name="not_enough_chats" translatable="false">聊天次数不够？获取VIP每天可与</string>
+    <string name="a_man_chatting" translatable="false">位男士畅聊</string>
+    <string name="increase_exposure" translatable="false">增加曝光</string>
+    <string name="exposure_increases" translatable="false">曝光度增加，吸引更多男士注意，和你搭讪～</string>
+    <string name="get_charm_vip_can_post_three" translatable="false">获取魅力VIP每天可发布3条动态，吸引他的注意！</string>
+    <string name="who_is_peeking_at_me_h_q_vip" translatable="false">谁在偷偷看我？获取VIP特权马上知道！</string>
+    <string name="get_the_charm_vip_and_modify" translatable="false">获取魅力VIP每天都可以修改一次资料哦～</string>
+    <string name="exclusive_charming" translatable="false">专属魅力VIP标识展示，彰显尊贵身份～</string>
+    <string name="end_of_activity_time" translatable="false">活动时间结束</string>
+    <string name="picture_selection_failed" translatable="false">图片选择失败</string>
+    <string name="please_input_the_text" translatable="false">请输入正文内容</string>
+    <string name="your_submission_has_been" translatable="false">您提交的动态已提交审核</string>
+    <string name="delete_this_picture" translatable="false">删除该图片？</string>
+    <string name="storage_permission_is_not" translatable="false">存储权限未授权，无法选择图片</string>
+    <string name="acquisition_failed" translatable="false">获取失败</string>
+    <string name="getting2" translatable="false">正在获取...</string>
+    <string name="click_to_select_topic" translatable="false">点击选择话题</string>
+    <string name="thumbs" translatable="false">点赞</string>
+    <string name="say_hi" translatable="false">打招呼</string>
+    <string name="just_released" translatable="false">刚刚发布</string>
+    <string name="do_you_want_to_delete_this_dynamic" translatable="false">是否要删除该动态？</string>
+    <string name="you_can_not_praise_yourself_2" translatable="false">不能给自己点赞～</string>
+    <string name="unknown" translatable="false">未知</string>
+    <string name="you_do_not_have_permission" translatable="false">没有开启位置权限，无法获取附近的人。</string>
+    <string name="your_data_is_being_audited" translatable="false">您的资料正在审核中，审核成功后才能进行此操作</string>
+    <string name="nearby" translatable="false">附近</string>
+    <string name="please_select_simulation_location" translatable="false">请选择模拟位置</string>
+    <string name="the_list_will_be_refreshed" translatable="false">修改定位成功,列表将自动刷新。</string>
+    <string name="modification_failed" translatable="false">修改失败，请重试。</string>
+    <string name="clear_gesture_lock_succeeded" translatable="false">清除手势锁成功</string>
+    <string name="please_set_gesture_lock_greater_than_three_steps" translatable="false">请设置大于3步的手势锁</string>
+    <string name="please_input_gesture_lock" translatable="false">请输入手势锁</string>
+    <string name="too_many_errors" translatable="false">错误次数过多，请重新登录</string>
+    <string name="input_error" translatable="false">输入错误请重试</string>
+    <string name="link_at_least_four_points" translatable="false">最少链接4个点，请重新输入</string>
+    <string name="please_input_gesture_lock_again" translatable="false">请再次输入手势锁</string>
+    <string name="set_successfully" translatable="false">设置成功</string>
+    <string name="inconsistent_with_last_gesture" translatable="false">与上次手势不一致请重新输入</string>
+    <string name="are_you_sure_to_delete_this_chat" translatable="false">确认删除该聊天吗？</string>
+    <string name="you_give" translatable="false">你给</string>
+    <string name="etc" translatable="false">等</string>
+    <string name="someone_said_hello" translatable="false">个人打过招呼</string>
+    <string name="unlock_to_see_who_is_peeking_at_you" translatable="false">解锁看看谁偷偷看了你</string>
+    <string name="system" translatable="false">系统</string>
+    <string name="the_data_can_be_modified" translatable="false">通过魅力女生认证后才可修改资料</string>
+    <string name="charm_vip_can_only_modify" translatable="false">魅力vip每天只能修改一次资料~</string>
+    <string name="invite_users_to_receive" translatable="false">邀请用户领红包</string>
+    <string name="modification_of_we_chat" translatable="false">修改微信需客服核实</string>
+    <string name="you_do_not_have_album_rights" translatable="false">未拥有相册权限，请授权</string>
+    <string name="upload_photos" translatable="false">上传照片</string>
+    <string name="up_to_seven_albums_can" translatable="false">相册最多上传七张，请删除后再次上传</string>
+    <string name="at_most_one_video" translatable="false">视频最多上传一个，请删除后再次上传</string>
+    <string name="successful_purchase" translatable="false">购买成功</string>
+    <string name="in_the_video_audit" translatable="false">视频审核中，审核通过后用户即可看到~</string>
+    <string name="after_the_certification" translatable="false">认证后 女生更放心和你见面</string>
+    <string name="your_contact_information" translatable="false">您的联系方式正在审核中，请稍后查看</string>
+    <string name="already_auth" translatable="false">已经认证</string>
+    <string name="tianjiashibeizhu" translatable="false">添加时请备注</string>
+    <string name="nv_shen" translatable="false">女神</string>
+    <string name="yudaowent" translatable="false">遇到问题点击这里</string>
+    <string name="bangdinggzh" translatable="false">绑定公众号</string>
+    <string name="huoquzuixin" translatable="false">获取最新下载地址和同步消息到微信</string>
+    <string name="bangdinghou" translatable="false">绑定后私信消息可同步到微信</string>
+    <string name="shurushoujih" translatable="false">请输入手机号码</string>
+    <string name="qingshuru" translatable="false">请输入用户UID</string>
+    <string name="lianxifangs" translatable="false">联系方式</string>
+    <string name="nskf" translatable="false">女神客服</string>
+    <string name="kfzs" translatable="false">客服助手</string>
+    <string name="rzzx" translatable="false">认证中心</string>
+    <string name="wtfk" translatable="false">问题反馈</string>
+    <string name="lxkf" translatable="false">联系客服</string>
+    <string name="czyh" translatable="false">查找用户</string>
+    <string name="yshhmddgd" translatable="false">隐私和黑名单等更多</string>
+    <string name="ycwxdgd" translatable="false">隐藏微信等更多</string>
+    <string name="shipxzsb" translatable="false">视频选择失败，请重试</string>
+    <string name="tpbcz" translatable="false">图片不存在</string>
+    <string name="tpxzsb" translatable="false">图片下载失败</string>
+    <string name="wlycfstpsb" translatable="false">网络异常，发送图片失败</string>
+    <string name="flyztp" translatable="false">发来一张照片</string>
+    <string name="yjlhyh" translatable="false">已经拉黑用户</string>
+    <string name="jtzddzhcs" translatable="false">今天主动打招呼次数已经达到上限拉~</string>
+    <string name="wbhdfys" translatable="false">为保护对方隐私，你不可以查看资料~</string>
+    <string name="myfytxlqx" translatable="false">没有赋予通讯录权限，无法使用功能。</string>
+    <string name="qingzhishaoxuanzeyizhong" translatable="false">请至少选择一种理由</string>
+    <string name="qingzhishaoshanghcuanyizhang" translatable="false">请至少上传一张图片</string>
+    <string name="fuyuquanxianshibai" translatable="false">赋予权限失败，无法使用功能</string>
+    <string name="zhaqsz" translatable="false">账号安全设置</string>
+    <string name="qdytcndzh" translatable="false">确定要退出您的账户？</string>
+    <string name="yszc" translatable="false">隐私政策</string>
+    <string name="yhxy" translatable="false">用户协议</string>
+    <string name="ys" translatable="false">隐身</string>
+    <string name="dkhyhwfzsylb" translatable="false">打开后用户将无法在首页列表中看到你</string>
+    <string name="ycwx" translatable="false">隐藏微信</string>
+    <string name="dkhyhjwf" translatable="false">打开后用户将无法查看你的联系方式</string>
+    <string name="yycwx" translatable="false">已隐藏微信</string>
+    <string name="yhjwfck" translatable="false">用户将无法查看你的微信，只能发起私聊，请及时查看私聊哦~</string>
+    <string name="jzmnqdl" translatable="false">禁止模拟器登录</string>
+    <string name="wjsgd" translatable="false">我解锁过的</string>
+    <string name="jsgwd" translatable="false">解锁过我的</string>
+    <string name="jssj" translatable="false">解锁时间：</string>
+    <string name="nmtzkck10" translatable="false">您每天只可查看10次魅力女生资料\r\n成为VIP可不限次数哦</string>
+    <string name="wbhmlnsys" translatable="false">为保护魅力女生隐私\r\n您今日还剩余</string>
+    <string name="cck" translatable="false">次查看</string>
+    <string name="mtbxckcs" translatable="false">每天不限查看次数</string>
+    <string name="bkyjszj" translatable="false">不可以解锁自己的联系方式哦~</string>
+    <string name="cztkl" translatable="false">操作太快啦~</string>
+    <string name="czwc" translatable="false">操作完成</string>
+    <string name="yxh" translatable="false">已喜欢</string>
+    <string name="zwpl" translatable="false">暂无评论</string>
+    <string name="zhpf" translatable="false">综合评分</string>
+    <string name="qxxh" translatable="false">取消喜欢</string>
+    <string name="qxlh" translatable="false">取消拉黑</string>
+    <string name="lh" translatable="false">拉黑</string>
+    <string name="znjbjsgndr" translatable="false">只能举报解锁过您的人</string>
+    <string name="siliao" translatable="false">私聊</string>
+    <string name="bkyslzjo" translatable="false">不可以私聊自己哦~</string>
+    <string name="mcjshck" translatable="false">每次解锁后才可举报一次哦～</string>
+    <string name="mcbjshc" translatable="false">每次被解锁后才可举报一次哦～</string>
+    <string name="znjbnjsgdr" translatable="false">只能举报您解锁过的人</string>
+    <string name="hbsp" translatable="false">红包视频</string>
+    <string name="zsjs" translatable="false">钻石解锁</string>
+    <string name="zgspszl" translatable="false">这个视频设置了红包视频 需要消耗</string>
+    <string name="zsjssp" translatable="false">钻石解锁视频</string>
+    <string name="jscg" translatable="false">解锁成功</string>
+    <string name="mt" translatable="false">每天</string>
+    <string name="tiao" translatable="false">条</string>
+    <string name="bhys" translatable="false">保护隐私</string>
+    <string name="zsbs" translatable="false">专属标识</string>
+    <string name="sxns" translatable="false">筛选男生</string>
+    <string name="zkvip" translatable="false">只看VIP</string>
+    <string name="sjgc" translatable="false">时间更长</string>
+    <string name="grsf" translatable="false">个人身份</string>
+    <string name="aqbm" translatable="false">安全保密</string>
+    <string name="gdtq" translatable="false">更多特权</string>
+    <string name="jqqd" translatable="false">敬请期待</string>
+    <string name="ljkt" translatable="false">立即开通</string>
+    <string name="xf" translatable="false">续费</string>
+    <string name="hyyxqz" translatable="false">会员有效期至：</string>
+    <string name="yywlyysxndvip" translatable="false">由于网络原因，刷新您的VIP信息失败，是否重试？</string>
+    <string name="day" translatable="false">天</string>
+    <string name="qxzczxx" translatable="false">请选择充值选项</string>
+    <string name="bctpsb" translatable="false">保存图片失败</string>
+    <string name="bctpcg" translatable="false">保存图片成功</string>
+    <string name="myfyccqx" translatable="false">没有赋予存储权限，无法保存图片</string>
+    <string name="pndf_xieyi" translatable="false">请务必审慎阅读、充分理解“用户协议”和“隐私政策”各条款式，包括但不限于：为了向您提供及时通讯、资料查看等务，我们需要收集您的设备信息、操作日志等个人信息。您可以在设置中查看、变更、删除个人信息并管理你的授权。可阅读</string>
+    <string name="yhxy2" translatable="false">《用户协议》</string>
+    <string name="he" translatable="false">和</string>
+    <string name="yszc2" translatable="false">《隐私政策》</string>
+    <string name="ljxxxx" translatable="false">了解详细信息。如您同意，请点击“同意”开始接受我们的服务。</string>
+    <string name="qgxtyhzdl" translatable="false">请勾选同意后再登录</string>
+    <string name="djdljdbty" translatable="false">点击登录即代表同意</string>
+    <string name="xzjdbty" translatable="false">选中即代表同意</string>
+    <string name="btysq" translatable="false">并同意授权</string>
+    <string name="bjhmyjdl" translatable="false">本机号码一键登录</string>
+    <string name="have" translatable="false">有</string>
+    <string name="sqw" translatable="false">上千位</string>
+    <string name="tcnstszx" translatable="false">同城女生同时在线</string>
+    <string name="dlhkj" translatable="false">登录后可见</string>
+    <string name="qtsjhmdl" translatable="false">其他手机号码登录</string>
+    <string name="nzzzxzh" translatable="false">您正在注销账号，确认登录将认为取消注销操作</string>
+    <string name="qrdl" translatable="false">确认登录</string>
+    <string name="dfhfnl" translatable="false">对方回复你啦！请畅快聊天吧~</string>
+    <string name="kgwdr" translatable="false">看过我的人</string>
+    <string name="tpyxh" translatable="false">图片已销毁</string>
+    <string name="xxyxh" translatable="false">消息已销毁。</string>
+    <string name="xxwfswc" translatable="false">消息未发送完成，请稍后重试</string>
+    <string name="zhyblh" translatable="false">账号已被拉黑，请联系管理员</string>
+    <string name="zhcxyc" translatable="false">账号出现异常，请联系管理员</string>
+    <string name="zhzqtsbdl" translatable="false">账号已在其他设备登录</string>
+    <string name="tup" translatable="false">图片</string>
+    <string name="ship" translatable="false">视频</string>
+    <string name="yyxx" translatable="false">语音消息</string>
+    <string name="wz" translatable="false">位置</string>
+    <string name="wj" translatable="false">文件</string>
+    <string name="tztx" translatable="false">通知提醒</string>
+    <string name="jqrxx" translatable="false">机器人消息</string>
+    <string name="rzxx" translatable="false">认证消息</string>
+    <string name="jsxx" translatable="false">解锁消息</string>
+    <string name="wzxx" translatable="false">未知消息</string>
+    <string name="qtxx" translatable="false">其他消息</string>
+    <string name="dfhfnl2" translatable="false">对方回复你啦！请畅快聊天吧~</string>
+    <string name="wbmdrgd" translatable="false">为避免打扰过多，对方回复后才可以继续沟通~</string>
+    <string name="mn" translatable="false">美女</string>
+    <string name="kqtstz" translatable="false">开启推送通知，不错过</string>
+    <string name="dxxo" translatable="false">的消息哦~</string>
+    <string name="qkq" translatable="false">去开启</string>
+    <string name="ddzfsb" translatable="false">订单支付失败，请重试。</string>
+    <string name="wzczdm" translatable="false">未知充值代码。</string>
+    <string name="wjcdsjllq" translatable="false">未检测到手机浏览器，无法打开网页</string>
+    <string name="ndzlzzshz" translatable="false">您的资料正在审核中，审核成功后才能进行此操作</string>
+    <string name="wbmnslngy" translatable="false">为避免女生离您过远，体验不佳请打开位置权限</string>
+    <string name="bcsbqsh" translatable="false">保存失败，请稍后重试</string>
+    <string name="ybc" translatable="false">已保存</string>
+    <string name="xydkxtdwkg" translatable="false">需要打开系统定位开关</string>
+    <string name="yyhqjqddwfw" translatable="false">用于获取精确的定位服务来为您提供附近的人等功能</string>
+    <string name="yhjfck3m" translatable="false">阅后即焚(查看3秒后焚毁)</string>
+    <string name="cclqcs" translatable="false">出错了，请重试</string>
+    <string name="wzcwqcs" translatable="false">未知错误，请重试</string>
+    <string name="bzcdff" translatable="false">不支持的方法，请升级到最新版本。</string>
+    <string name="yuan" translatable="false">元</string>
+</resources>

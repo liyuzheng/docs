@@ -1,0 +1,16 @@
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+.phpunit.result.cache
+.idea
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+*/.DS_Store
+.DS_Store
+storage/uploads*
+/public/storage
+/public/uploads*
+logs

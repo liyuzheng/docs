@@ -1,0 +1,12 @@
+git_pull_version:
+  tags:
+    - xq
+  script:
+    - cd /data/www/api-version
+    - git checkout version && git checkout . && git clean -fd && git fetch && git checkout origin/version -- composer.json && git checkout origin/version -- composer.lock && composer install && git pull
+    - rm -f .env
+    - cp .env.version .env
+  only:
+    - version
+
+

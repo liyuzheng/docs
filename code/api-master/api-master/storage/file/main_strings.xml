@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottom_tab_main" translatable="false">主页</string>
+    <string name="bottom_tab_dynamic" translatable="false">动态</string>
+    <string name="bottom_tab_message" translatable="false">消息</string>
+    <string name="bottom_tab_mine" translatable="false">我的</string>
+</resources>

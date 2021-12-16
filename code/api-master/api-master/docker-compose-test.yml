@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  xiaoquan-api:
+    image: xiaoquan-docker-registry.cn-beijing.cr.aliyuncs.com/xiaoquan/api-test:latest
+    container_name: xiaoquan-api-test
+    volumes:
+      - ./logs/nginx/:/var/log/nginx
+      - ./logs/api:/www/storage/logs
+      - ./.env:/www/.env
+    ports:
+      - "8081:80"
+      - "8088:81"
+    cap_add:
+      - SYS_PTRACE
+    restart: always

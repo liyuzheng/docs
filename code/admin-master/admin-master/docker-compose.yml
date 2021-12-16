@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  xiaoquan-api:
+    image: docker-hub.chqaz.com/xiaoquan/admin-api:latest
+    container_name: xiaoquan-admin-api-prod
+    volumes:
+      - ./logs/nginx/:/var/log/nginx
+      - ./logs/api:/www/storage/logs
+      - ./.env:/www/.env
+    ports:
+      - "8081:80"
+      - "8088:81"
+    cap_add:
+      - SYS_PTRACE
+    restart: always
